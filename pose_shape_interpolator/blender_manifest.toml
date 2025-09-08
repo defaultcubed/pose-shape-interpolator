@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "pose_shape_interpolator"
+version = "1.0.0"
+name = "Pose Shape Interpolator"
+tagline = "Pose base shape key interpolator"
+maintainer = "James Snowden <james@defaultcubed.com>"
+type = "add-on"
+tags = ["Rigging"]
+blender_version_min = "4.4.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = ["__pycache__/", ".*", "*.json", "build/"]
